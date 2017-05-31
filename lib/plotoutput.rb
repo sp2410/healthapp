@@ -1,0 +1,2 @@
+class Plotoutput
+end
