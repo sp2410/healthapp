@@ -1,0 +1,16 @@
+Food	Banana cake, made with sugar	47	1496401908
+Exercise	Crunches	20	1496401911
+Food	Banana cake, made without sugar	55	1496401919
+Exercise	Sprinting	60	1496401929
+Food	Sponge cake, plain	46	1496401923
+Exercise	Crunches	20	1496401920
+Food	Vanilla cake made from packet mix with vanilla frosting (Betty Crocker)	42	1496401932
+Food	Apple, made with sugar	44	1496401943
+Food	Apple, made without sugar	48	1496401954
+Food	Food, Waffles, Aunt Jemima (Quaker Oats)	76	1496401965
+Food	Bagel, white, frozen	72	1496401972
+Food	Baguette, white, plain	95	1496401989
+Food	Coarse barley bread, 75-80% kernels, average	34	1496401999
+Food	Hamburger bun	61	1496401200
+Food	Kaiser roll	73	1496401218
+Food	Pumpernickel bread	56	1496401229
