@@ -1,6 +1,6 @@
 Hello! This is a code for simulation of blood sugar and glycimic index calculation.
-Input format for this code is tab seprated consisting of Tyep Name  glycimicindex/exerciseindex timestamp(seconds precision) 
-an example can be:
+My assumption is Input format for this code is tab seprated consisting of Tyep Name  glycimicindex/exerciseindex timestamp(seconds precision) 
+An example can be:
 
 Food	Banana cake, made with sugar	47	1496401908
 Exercise	Crunches	20	1496401911
@@ -19,6 +19,8 @@ Food	Coarse barley bread, 75-80% kernels, average	34	1496401999
 Food	Hamburger bun	61	1496401200
 Food	Kaiser roll	73	1496401218
 Food	Pumpernickel bread	56	1496401229
+
+Note: If there is a need for any change in input format, let me know, I will change my code accordingly storing values in dictionaries
 
 
 You can run the code in two ways.
@@ -41,7 +43,13 @@ The logic was that for each minute duration:
 2. Finally I check for that minute, if the glucose level is above 150, if it is I increase the glycation by 1.
    a. I store the glucose level for that minute in an array of objects
   
-  I plot these two arrays in a seperate class
+Finally I plot these two arrays in a seperate class plotoutput. The values as array can be achieved from plotbloodsugardata and plotglycationdata from the same class if needed as they are returning the respective values,
+
+The figures are bloodsugar.png and glycation.png
+
+Let me know if there is need for altering the code. As per specification, this solution was as I understood form the problem,  I am capable of the exact solution you are looking for and I will change the code if my assumptions about my input or logic if you provide some time for discussions.
+
+
   
   
   
