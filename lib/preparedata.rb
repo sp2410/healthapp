@@ -1,10 +1,10 @@
-require 'food.rb'
-require 'exercise.rb'
+require './food'
+require './exercise'
 
 
 class Preparedata
 
-	attr_accessor :input, :foods, :exercises
+	attr_accessor :input, :foods, :exercises,:starttime, :endtime
 
 	#Initializing as per the requirements and the best data structures which will be handy
 	def initialize(input)		
@@ -43,12 +43,12 @@ class Preparedata
 
 				arr = line.split("\t")	
 
-				if arr[2].to_i < @starttime
-					@starttime = arr[2].to_i
+				if arr[3].to_i < @starttime
+					@starttime = arr[3].to_i
 				end
 
-				if arr[2].to_i > @endtime
-					@endtime = arr[2].to_i
+				if arr[3].to_i > @endtime
+					@endtime = arr[3].to_i
 				end
 
 

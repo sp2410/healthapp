@@ -1,8 +1,8 @@
 class Glycation
-	attr_accessor :glyction, :timestamp
+	attr_accessor :glycation, :timestamp
 
-	def initialize(glyction, timestamp )		
-		@glyction = glyction
+	def initialize(glycation, timestamp)		
+		@glycation = glycation
 		@timestamp = timestamp
 	end
 end
