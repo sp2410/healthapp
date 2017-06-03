@@ -1,5 +1,5 @@
 Hello! This is a code for simulation of Blood sugar and Glycation calculation.
-My assumption is Input format for this code is tab seprated consisting of Tyep Name  glycimicindex/exerciseindex timestamp(seconds precision) 
+My assumption is Input format for this code is tab seprated consisting of Type  Name  glycimicindex/exerciseindex timestamp(seconds precision) 
 An example can be:
 
 Food	Banana cake, made with sugar	47	1496401908
@@ -22,18 +22,17 @@ Food	Pumpernickel bread	56	1496401229
 
 Note: If there is a need for any change in input format, let me know, I will change my code accordingly storing values in dictionaries
 
-
 You can run the code in two ways.
 
 1. Either run rspec spec and two images will be generated: glycations.png and bloodsugar.png (preferred)
   or 
-2. cd to lib folder and Run ruby runprogram.rb (Go through codes in lib folder and uncomment the require blocks as mexplained in each code)
+2. cd to lib folder and Run ruby runprogram.rb (Go through codes in lib folder and uncomment the require blocks as explained in each code in comments on the top)
 
 
 The code has been developed through TDD, with Rspec using composition of classes and following object oriented encapsulation and reponsibilities 
 
 
-The logic was that for each minute duration:
+The logic was that for I iterate through each minute duration between minimum timestamp and maximum timestamp:
   1. If there has been no food consumed or exercise done within the last 2 hours and 1 hour respectively, I set the glucose level as 80
   else
     a. I check the food items consumed within 7200 sec and add the glucose level as per the difference in time between the time instant and time of that food consumption, multiplied by the glycimic_index factor
