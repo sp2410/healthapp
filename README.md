@@ -1,4 +1,4 @@
-Hello! This is a code for simulation of blood sugar and glycimic index calculation.
+Hello! This is a code for simulation of Blood sugar and Glycation calculation.
 My assumption is Input format for this code is tab seprated consisting of Tyep Name  glycimicindex/exerciseindex timestamp(seconds precision) 
 An example can be:
 
