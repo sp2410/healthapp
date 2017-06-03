@@ -47,10 +47,11 @@ class Preparedata
 
 				arr = line.split("\t")	
 
+				#get minimum time
 				if arr[3].to_i < @starttime
 					@starttime = arr[3].to_i
 				end
-
+				#get maximum time
 				if arr[3].to_i > @endtime
 					@endtime = arr[3].to_i
 				end
@@ -63,6 +64,7 @@ class Preparedata
 					@exercises << Exercise.new(arr[1].to_s, arr[2].to_f, arr[3].to_i)						
 				end			
 			end
+			#sort food and exercise as per timestamp
 
 			sortfood
 			sortexercise

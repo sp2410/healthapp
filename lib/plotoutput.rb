@@ -14,6 +14,7 @@ class Plotoutput
 		@glycations = @newmain.glycations
 	end
 
+	#plotting bloodsugar data
 
 	def plotbloodsugardata
 
@@ -42,8 +43,11 @@ class Plotoutput
 
 			bar_chart.file
 
+			return @bloodsugars
 
 	end
+
+	#plotting glycation data
 
 	def plotglycationdata
 
@@ -69,7 +73,9 @@ class Plotoutput
             :axis_labels => [time]            
             )
 
-			bar_chart.file			
+			bar_chart.file		
+
+			return 	@glycations
 
 	end
 	
