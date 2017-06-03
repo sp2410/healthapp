@@ -11,3 +11,6 @@ source 'http://rubygems.org'
 
 
  gem 'nokogiri'
+
+ # gem 'googlecharts'
+ gem 'nyaplot'
