@@ -13,7 +13,7 @@ describe "#initialize" do
 end
 
 
-describe "#initialize" do 
+describe "#mainprocessor" do 
 	it "should call do all the processing and set bloodglucose & glycation array"  do
 		newmain = Main.new("input.txt")
 		newmain.mainprocessor
