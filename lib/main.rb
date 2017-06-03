@@ -1,7 +1,10 @@
-require './preparedata'
-require './glycation'
-require './bloodsugar'
-
+require 'preparedata.rb'
+require 'glycation.rb'
+require 'bloodsugar.rb'
+#When Running runprogram uncomment the require below and comment the above three lines
+# require './preparedata'
+# require './glycation'
+# require './bloodsugar'
 
 class Main	
 

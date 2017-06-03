@@ -7,8 +7,6 @@ describe "#initialize" do
 		expect(newmain.foods[0].timestamp).to eq(1496401200)		
 		expect(newmain.exercises[0].timestamp).to eq(1496401100)		
 	end
-
-
 	
 end
 

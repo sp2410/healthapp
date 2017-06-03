@@ -1,5 +1,8 @@
 require 'gchart'
-require './main'
+
+require 'main.rb'
+#When Running runprogram uncomment the require below and comment the above one lines
+# require './main'
 
 class Plotoutput
 

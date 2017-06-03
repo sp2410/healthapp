@@ -1,5 +1,9 @@
-require './food'
-require './exercise'
+require 'food.rb'
+require 'exercise.rb'
+#When Running runprogram uncomment the require below and comment the above two lines
+# require './food'
+# require './exercise'
+
 
 
 class Preparedata
